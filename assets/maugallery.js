@@ -1,4 +1,4 @@
-/*(function ($) {
+(function ($) {
   $.fn.mauGallery = function (options) {
     var options = $.extend({}, $.fn.mauGallery.defaults, options); // Correction pour fusionner les options correctement
     var tagsCollection = [];
@@ -112,6 +112,7 @@
       // Correction pour définir la méthode correctement
       if (element.prop("tagName") === "IMG") {
         element.addClass("img-fluid");
+        element.attr("loading", "lazy"); // Ajout de l'attribut loading="lazy"
       }
     },
     openLightBox: function (element, lightboxId) {
@@ -258,4 +259,3 @@
     },
   };
 })(jQuery);
-*/
