@@ -261,12 +261,17 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+footer h3 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #d8d3a8;
-  padding: 15px;
+  padding: 25px;
 }
 
 @media screen and (max-width: 1180px) {
