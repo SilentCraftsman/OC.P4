@@ -118,7 +118,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #000;
-  background-color: #beb45a;
+  background-color: #807732;
   border-radius: 0;
 }
 
@@ -259,6 +259,11 @@ form textarea {
 input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
+}
+
+.phone {
+  text-decoration: none;
+  color: #000;
 }
 
 footer h3 {

@@ -965,7 +965,6 @@ textarea {
     --bs-gutter-y: 3rem;
   }
 }
-
 @media (min-width: 1400px) {
   .col-xxl {
     flex: 1 0 0%;
