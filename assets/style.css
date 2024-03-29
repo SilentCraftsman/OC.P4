@@ -269,7 +269,7 @@ footer {
   padding: 15px;
 }
 
-@media all and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
   .picture {
     flex: 2;
   }
@@ -277,18 +277,17 @@ footer {
   #contact .container {
     align-items: center;
   }
-  .about-me__title {
+  .about-me-title {
     margin-top: 0;
     margin-bottom: 1em;
-    text-align: center;
   }
-  #about-me .about-me__introduction,
+  #about-me .about-me-introduction,
   #about-me p {
     width: 100%;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   #about {
     flex-direction: column;
   }
@@ -304,7 +303,8 @@ footer {
     left: 0;
     z-index: -1;
   }
-  .about-me__title {
+  .about-me-title,
+  h1 {
     text-align: center;
     margin-top: 1em;
   }
@@ -317,6 +317,10 @@ footer {
     height: auto;
     margin: 2em 0;
   }
+  .service-description {
+    margin-bottom: 1em;
+  }
+
   #services .container::before {
     width: 30%;
     height: 100%;
@@ -325,6 +329,7 @@ footer {
     left: auto;
     z-index: 0;
   }
+
   #contact .container {
     flex-direction: column;
   }
@@ -341,17 +346,17 @@ footer {
   }
 }
 
-@media all and (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .top-header {
     flex-direction: column;
     padding-inline: 0;
   }
-  .top-header .nav,
-  .top-header .nav ul {
+  .top-header nav,
+  .top-header nav ul {
     width: 100%;
     padding: 0 0 0 0;
   }
-  .top-header .nav li {
+  .top-header nav li {
     flex: 1;
     padding-block: 1em;
     text-align: center;
@@ -376,5 +381,10 @@ footer {
   }
   .picture {
     width: 80%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
