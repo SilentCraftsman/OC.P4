@@ -138,14 +138,7 @@
       }
     </script>
 
-    <!-- Feuilles de style supplémentaires -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet" />
-
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/maugallery.min.js" defer></script>
-    <script src="./assets/scripts.min.js" defer></script>
   </head>
   <body>
     <header class="top-header">
@@ -166,7 +159,8 @@
                 width="20"
                 height="20"
                 alt="Logo d'instagram"
-                fetchpriority="high" />
+                fetchpriority="high"
+                loading="lazy" />
             </a>
           </li>
         </ul>
@@ -206,6 +200,7 @@
                 width="1920"
                 height="888"
                 fetchpriority="high"
+                loading="lazy"
                 style="max-width: 100%; height: auto"
                 srcset="
                   ./assets/images/slider/425/ryoji-425.webp    425w,
@@ -222,6 +217,7 @@
                 width="1920"
                 height="888"
                 fetchpriority="high"
+                loading="lazy"
                 style="max-width: 100%; height: auto"
                 srcset="
                   ./assets/images/slider/425/nicholas-425.webp    425w,
@@ -238,6 +234,7 @@
                 width="1920"
                 height="888"
                 fetchpriority="high"
+                loading="lazy"
                 style="max-width: 100%; height: auto"
                 srcset="
                   ./assets/images/slider/425/edward-425.webp    425w,
@@ -270,7 +267,8 @@
             <img
               src="./assets/images/nina.webp"
               alt="Image de Nina Carducci"
-              fetchpriority="high" />
+              fetchpriority="high"
+              loading="lazy" />
           </div>
           <div id="about-me">
             <h2 class="about-me__title">A propos de moi</h2>
@@ -488,7 +486,8 @@
                 width="550"
                 height="548"
                 alt="Photo d'une camera de couleur noire"
-                fetchpriority="high" />
+                fetchpriority="high"
+                loading="lazy" />
             </div>
           </div>
         </div>
@@ -521,12 +520,18 @@
             itemprop="image"
             src="assets/images/nina-appareil-photo.webp"
             alt="Photo de Nina Carducci avec un appareil photo"
-            fetchpriority="high" />
+            fetchpriority="high"
+            loading="lazy" />
         </div>
       </div>
     </footer>
     <!-- Préconnexion aux ressources -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      rel="stylesheet" />
+    <script src="./assets/maugallery.min.js" async></script>
+    <script src="./assets/scripts.min.js" async></script>
   </body>
 </html>
