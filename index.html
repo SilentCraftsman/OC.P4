@@ -9,14 +9,11 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.min.css" />
 
-    <!--Bibliothèque-->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
+    <!-- Bibliothèque -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <!-- Icône de la page -->
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
 
     <!-- Métadonnées générales -->
     <meta
@@ -43,7 +40,6 @@
     <meta
       property="og:description"
       content="Nina Carducci, photographe professionnelle basée à Bordeaux, spécialisée dans la capture des moments les plus précieux de votre vie avec créativité et passion. Je suis spécialisée dans les portraits, les mariages et les événements, et je m'efforce de créer des images authentiques et intemporelles qui racontent votre histoire de manière unique. Réservez dès maintenant votre séance photo avec moi pour immortaliser vos souvenirs les plus précieux." />
-    <meta property="og:author" content="Nina Carducci" />
 
     <!-- Métadonnées Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -63,8 +59,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Nina Carducci",
-        // Assurez-vous que l'URL d'image pointe vers une image réelle
-        "image": "https://silentcraftsman.github.io/OC.P4/",
+        "image": "https://silentcraftsman.github.io/OC.P4/assets/images/nina.webp",
         "@id": "",
         "url": "https://silentcraftsman.github.io/OC.P4/",
         "telephone": "05 56 67 78 89",
@@ -138,13 +133,14 @@
       }
     </script>
 
-    <!--Favicon-->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-
     <!-- Feuilles de style supplémentaires -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet" />
+
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/maugallery.min.js" defer></script>
+    <script src="./assets/scripts.min.js" defer></script>
   </head>
   <body>
     <header class="top-header">
@@ -159,13 +155,13 @@
             <a
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              target="_blank"
-              ><img
-                src="assets/images/instagram.png"
+              target="_blank">
+              <img
+                src="./assets/images/instagram.png"
                 width="20"
                 height="20"
-                alt="Logo d'instagram"
-            /></a>
+                alt="Logo d'instagram" />
+            </a>
           </li>
         </ul>
       </nav>
@@ -295,47 +291,65 @@
                 data-gallery-tag="Concert"
                 class="gallery-item"
                 src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-                alt="Concert aaron-paul" />
+                alt="Concert aaron-paul"
+                width="466"
+                height="621" />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
                 src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
-                alt="Entrepreneur ali-morshedlou" />
+                alt="Entrepreneur ali-morshedlou"
+                width="466"
+                height="699" />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
                 src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
-                alt="Entrepreneurs jason-goodman" />
+                alt="Entrepreneurs jason-goodman"
+                width="466"
+                height="315" />
               <img
                 data-gallery-tag="Mariages"
                 class="gallery-item"
                 src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-                alt="Mains Mariage hannah-busing" />
+                alt="Photo de mains unis dans un mariage"
+                width="466"
+                height="373" />
               <img
                 data-gallery-tag="Portrait"
                 class="gallery-item"
                 src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-                alt="Portrait ade-tunji" />
+                alt="Portrait d'un homme"
+                width="466"
+                height="698" />
               <img
                 data-gallery-tag="Mariages"
                 class="gallery-item"
                 src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
-                alt="Mariés sous un Palmier" />
+                alt="Mariés sous un Palmier"
+                width="466"
+                height="699" />
               <img
                 data-gallery-tag="Portrait"
                 class="gallery-item"
                 src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-                alt="Femme Portrait Lunettes" />
+                alt="Femme Portrait Lunettes"
+                width="466"
+                height="700" />
               <img
                 data-gallery-tag="Concert"
                 class="gallery-item"
                 src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
-                alt="Concert austin-neill" />
+                alt="Concert austin-neill"
+                width="466"
+                height="311" />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
                 src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-                alt="Femme qui travaille sur un ordinateur" />
+                alt="Femme qui travaille sur un ordinateur"
+                width="466"
+                height="285" />
             </div>
           </div>
           <aside class="quote">
@@ -489,10 +503,7 @@
       </div>
     </footer>
     <!-- Préconnexion aux ressources -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" defer />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="./assets/maugallery.min.js"></script>
-    <script src="./assets/scripts.min.js"></script>
   </body>
 </html>
