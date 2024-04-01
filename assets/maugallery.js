@@ -112,7 +112,7 @@
       // Correction pour définir la méthode correctement
       if (element.prop("tagName") === "IMG") {
         element.addClass("img-fluid");
-        element.attr("loading", "lazy"); // Ajout de l'attribut loading="lazy"
+        //element.attr("loading", "lazy"); // Ajout de l'attribut loading="lazy"
       }
     },
     openLightBox: function (element, lightboxId) {
