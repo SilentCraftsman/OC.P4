@@ -79,6 +79,7 @@ body {
 
 .picture img {
   width: 100%;
+  object-fit: cover;
 }
 
 #about-me {
@@ -282,6 +283,7 @@ footer {
 @media screen and (max-width: 1180px) {
   .picture {
     flex: 2;
+    object-fit: cover;
   }
   #about,
   #contact .container {
@@ -303,6 +305,7 @@ footer {
   }
   .picture {
     width: 50%;
+    object-fit: cover;
   }
   .picture.left::before {
     width: 100%;
@@ -391,6 +394,7 @@ footer {
   }
   .picture {
     width: 80%;
+    object-fit: cover;
   }
   footer {
     display: flex;
